@@ -26,8 +26,23 @@ public class RectangularMatrix {
                 if (k == wlen) count++;
             }
         }
+
+        // Check diagonals (top-left to bottom-right)
+        for (int i = 0; i <= rows - wlen; i++) {
+            for (int j = 0; j <= cols - wlen; j++) {
+                boolean match = true;
+                for (int k = 0; k < wlen; k++) {
+                    if (board[i + k][j + k] != word.charAt(k)) {
+                        match = false;
+                        break;
+                    }
+                }
+                if (match) count++;
+            }
+        }
         return count;
     }
+
 public static void main(String[] args) {
     char[][] board = {
             {'a', 'a'},
