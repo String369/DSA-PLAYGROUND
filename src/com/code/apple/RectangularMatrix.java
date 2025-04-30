@@ -1,3 +1,5 @@
+package com.code.apple;
+
 public class RectangularMatrix {
     public static int solution(char[][] board, String word) {
         int rows = board.length;

@@ -1,3 +1,5 @@
+package com.code.leetcode;
+
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         int n = digits.length;

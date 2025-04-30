@@ -1,0 +1,19 @@
+Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Originally developed by Sun Microsystems and released in 1995, Java has become one of the most popular programming languages in the world, known for its portability, scalability, and robustness.
+
+A key feature of Java is its platform independence — the slogan "write once, run anywhere" (WORA) captures this, as Java code is compiled into bytecode that can run on any system with a Java Virtual Machine (JVM). This makes Java ideal for cross-platform applications.
+
+Java supports concepts such as inheritance, encapsulation, polymorphism, and abstraction. It provides a rich API, strong memory management, and built-in security features. Java is widely used for building enterprise-level applications, mobile applications (especially Android), web servers, and embedded systems.
+
+Key Features of Java:
+
+Object-Oriented: Everything in Java is treated as an object, promoting reusable and modular code.
+
+Platform Independent: Java programs run on the JVM, allowing them to be executed on any platform without recompilation.
+
+Multithreaded: Java provides built-in support for multithreaded programming, enabling efficient performance in concurrent applications.
+
+Rich Standard Library: Java offers a vast set of libraries for data structures, networking, database access, graphical interfaces, and more.
+
+Automatic Memory Management: Java’s garbage collector handles memory allocation and deallocation, helping to prevent memory leaks.
+
+Java continues to evolve, with recent versions (such as Java 17 and Java 21) bringing performance improvements, language enhancements, and new APIs.
